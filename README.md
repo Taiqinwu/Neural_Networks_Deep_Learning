@@ -38,9 +38,9 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
     * We used two hidden layers for this model, with 80 neurons on the first layer and 30 neurons on the second layers, and the activation for the first layers and second layers are "relu" and activation for output layer is "sigmoid".
   * Were you able to achieve the target model performance?
-    * I was not able to reach a taget performance of 75%, based on my three attend the avarage performance is close to 72.8%
+    * I was not able to reach a taget performance of 75%, based on my three attend the avarage performance is close to 72.9%
   * What steps did you take to try and increase model performance?
-    * On the first attend, I added an additional layer to the model and achieved a 72.9%. On the second attend, I changed the output activiation to "tanh" which also achieve a 72.9%. On the third attend, I added the fourth layer, changed the third and forth activation to "sigmoid", and run it with epochs of 150 times, and it lowered rate to 72.6%.
+    * On the first attend, I added an additional layer to the model and achieved a 73%. On the second attend, I changed the output activiation to "tanh" which also achieve a 72.9%. On the third attend, I added the fourth layer, changed the third and forth activation to "sigmoid", and run it with epochs of 150 times, and it lowered rate to 72.8%.
     
 ## Summary:
 * As of result, the target accruacy rate of 75% was not suucessful, as we only achieved 73% for our best model. Recommandation to achieve 75% accuracy rate, we can try Random Forest Classifier or SVM model. 
